@@ -811,7 +811,7 @@ public class StandbyService extends Service{
 					try {
 						root_set_device_brightness();
 						proc = null;
-						timer = new Timer();
+						//timer = new Timer();
 						task = new TimerTask() {
 					        @Override
 					        public void run() {
